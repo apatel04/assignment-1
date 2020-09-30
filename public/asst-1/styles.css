@@ -20,6 +20,25 @@ html {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-start;
+}
+
+.image {
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.wrapper {
+    flex: 0 1 auto;
+    margin-right: 15px;
+}
+
+.first p {
+    background: #f0f0f0;
+    border-radius: 4px;
+    padding: 15px;
+    flex: 0 1 auto;
+    border: solid 1px transparent;
 }
