@@ -16,7 +16,7 @@ html {
 }
 
 body {
-    background-color: thistle;
+    background-color: #FFBB26;
 }
 
 .container {
@@ -42,9 +42,13 @@ body {
 }
 
 .first p {
-    background: #f0f0f0;
+    background: rgb(241, 238, 233);
     border-radius: 4px;
     padding: 15px;
     flex: 0 1 auto;
     border: solid 1px transparent;
+}
+
+.second {
+    background: rgb(241, 238, 233);
 }
