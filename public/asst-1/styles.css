@@ -1,5 +1,6 @@
 html {
     display: block;
+    height: 100%;
 }
 
 .header {
@@ -12,6 +13,10 @@ html {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
+}
+
+body {
+    background-color: thistle;
 }
 
 .container {
@@ -28,6 +33,7 @@ html {
     border-radius: 4px;
     border-width: 1px;
     border-style: solid;
+    width: 100;
 }
 
 .wrapper {
