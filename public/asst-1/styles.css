@@ -6,6 +6,9 @@ html {
 body {
     background-color: thistle;
 }
+.header img{
+    margin: 0 auto;
+}
 
 .header {
     background-color: #003EB0;
@@ -26,7 +29,8 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    margin-right: 15px;
+    justify-content: space-between;
     align-items: flex-start;
     background-color: aliceblue;
 }
@@ -40,14 +44,18 @@ body {
 }
 
 .wrapper {
-    flex: 0 1 auto;
+    flex: 1 0 auto;
     margin-right: 15px;
 }
 
 .first p {
-    background: #f0f0f0;
+    background: rgb(241, 238, 233);
     border-radius: 4px;
     padding: 15px;
-    flex: 0 1 auto;
+    flex: 1 0 auto;
     border: solid 1px transparent;
+}
+
+.second {
+    background: rgb(241, 238, 233);
 }
