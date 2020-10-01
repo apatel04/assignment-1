@@ -4,58 +4,88 @@ html {
 }
 
 body {
-    background-color: thistle;
+    background-color: #D8BFD8;
+    font-family: sans-serif;
 }
-.header img{
-    margin: 0 auto;
-}
+    .header img{
+        margin: 0 auto;
+    }
 
-.header {
-    background-color: #003EB0;
-    color: #FFC038;
-    font-family: Trochut;
-    margin-bottom: 15px;
-    padding: 15px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-}
+    .header {
+        background-color: #A825A8;
+        color: #D8BFD8;
+        font-family: 'Lilita One', cursive;
+        margin-bottom: 15px;
+        padding: 15px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    h2 {
+        font-style: italic;
+    }
+
+    .container {
+        max-width: 960px;
+        min-width: 100%;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-right: 15px;
+        align-items: flex-start;
+    }
+
+    .image {
+        border-radius: 4px;
+        border-width: 1px;
+        border-style: solid;
+        width: inherit;
+    }
+
+    .wrapper {
+        flex: 1 0 auto;
+        margin-right: 15px;
+        display: flex;
+    }
+
+    .first {
+        flex: 0 1 auto;
+        width: 175px;
+        margin-right: 15px;
+    }
+
+    .first p {
+        background: #FFF0F5;
+        border-radius: 4px;
+        padding: 15px;
+        flex: 0 1 auto;
+        border: solid 1px transparent;
+    }
+
+    .second {
+        background:#FFF0F5;
+        border-radius: 2px;
+    }
 
 
-.container {
-    max-width: 960px;
-    min-width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-right: 15px;
-    justify-content: space-between;
-    align-items: flex-start;
-    background-color: aliceblue;
-}
-
-.image {
-    border-radius: 4px;
-    border-width: 1px;
-    border-style: solid;
-    width: 100px;
-    background-color: antiquewhite;
-}
-
-.wrapper {
-    flex: 1 0 auto;
-    margin-right: 15px;
-}
-
-.first p {
-    background: rgb(241, 238, 233);
-    border-radius: 4px;
-    padding: 15px;
-    flex: 1 0 auto;
-    border: solid 1px transparent;
-}
-
-.second {
-    background: rgb(241, 238, 233);
-}
+    @media only screen and (max-width: 1000px){
+        .container {
+            justify-content: center;
+        }
+        .first {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            flex: 1 0 auto;
+            justify-content: space-evenly;
+            align-items: center;
+            margin: 0;
+            margin-bottom: 15px;
+        }
+        .first p {
+            margin: 15px 0 0 0;
+        }
+    }
